@@ -1,0 +1,23 @@
+/* Place your CSS styles in this file */
+
+body {background-color: beige;
+      border: 7px solid brown;
+      border-radius:17px;
+}
+ul {list-style-type:none;
+    background-color:#e05858;
+    border-radius:7px;
+    font-size:xx-large;
+    text-align:center;
+}
+
+li {display:inline;
+    color:beige;
+    margin:17px;
+
+}
+h1 {text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    color: brown;
+}
