@@ -1,23 +1,23 @@
 /* Place your CSS styles in this file */
 
-body {background-color: beige;
-      border: 7px solid brown;
+body {background-color: #F5DEB3;
+      border: 7px solid #E66C2C;
       border-radius:17px;
 }
 ul {list-style-type:none;
-    background-color:#e05858;
+    background-color:#C36241;
     border-radius:7px;
     font-size:xx-large;
     text-align:center;
 }
 
 li {display:inline;
-    color:beige;
+    color:#F5DEB3;
     margin:17px;
 
 }
 h1 {text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Cavolini", ;
     font-weight: bold;
-    color: brown;
+    color: #C36241;
 }
