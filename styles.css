@@ -2,24 +2,23 @@
 
 body {background-color: #F5DEB3;
       border: 7px solid #E66C2C;
-      border-radius:17px;
+      border-radius: 17px;
 }
-ul {list-style-type:none;
+ul {list-style-type: none;
     background-color: #DEA681;
-    border-radius:7px;
-    font-size:xx-large;
-    text-align:center;
+    border-radius: 7px;
+    font-size: xx-large;
+    text-align: center;
 }
 
-li {display:inline;
-    color:#F5DEB3;
-    margin:17px;
-    font-family:"Cavolini";
+li {display: inline;
+    color: #F5DEB3;
+    margin: 17px;
+    font-family: "Cavolini";
 }
+
 h1 {text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     color: #C36241;
-}
-
 }
