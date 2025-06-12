@@ -1,24 +1,95 @@
-/* Place your CSS styles in this file */
+/* Importing Google Fonts */
 
-body {background-color: #F5DEB3;
-      border: 7px solid #E66C2C;
-      border-radius: 17px;
-}
-ul {list-style-type: none;
-    background-color: #DEA681;
-    border-radius: 7px;
-    font-size: xx-large;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+:root {
+  --primary: #b8ab2e;
+  --bg: #ffe082;
 }
 
-li {display: inline;
-    color: #F5DEB3;
-    margin: 17px;
-    font-family: "Cavolini";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
 }
 
-h1 {text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    color: #C36241;
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: var(--bg);
+  color: #9c4949;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: rgba(255, 252, 220, 0.7 );
+  border-bottom: 1px solid var(--primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #db8134;
+  font-style: italic;
+}
+
+.navbar .navbar-logo span {
+  color: var(--primary);
+}
+
+.navbar .navbar-nav a {
+  color: #c22424;
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 0 1rem;
+}
+
+.navbar .navbar-nav a:hover {
+  color: var(--primary);
+}
+
+.navbar .navbar-nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid var(--primary);
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(0.5);
+}      
+
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
 }
